@@ -3,11 +3,13 @@
   --text-color: #c3c3c3;
   --contrast-color: #e3fc52;
 }
-
-body {
+html {
   font-family: "Jost", sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
+}
+
+body {
   display: flex;
   flex-flow: column;
   height: 100vh;
